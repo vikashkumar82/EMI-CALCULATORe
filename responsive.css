@@ -1,0 +1,232 @@
+
+@media only screen and (max-width:767px) and (min-width:360px)
+{
+    input#homeLoanintrestSlider {
+        width: 284px !important;
+    }
+
+    input#homeLoanAmountSlider {
+        width: 284px !important;
+    }
+
+    input#homeLoanTenureSlider {
+        width: 284px !important;
+    }
+
+    input#presonalLoanTenureSlider {
+        width: 284px !important;
+    }
+
+    input#presonalLoanAmountSlider {
+        width: 284px !important;
+    }
+
+    input#presonalLoanintrestSlider {
+        width: 284px !important;
+    }
+
+    input#carLoanTenureSlider {
+        width: 284px !important;
+    }
+
+    input#carLoanAmountSlider {
+        width: 284px !important;
+    }
+
+    input#carLoanintrestSlider {
+        width: 284px !important;
+    }
+  
+    
+    button#home-tab {
+        color: #000000;
+        font-weight: 500;
+        background-color: #DEDEDE;
+        border-color: #b2adad;
+        border-radius: 0px;
+        padding: 6px 18px 6px 18px;
+        font-size: small;
+    }
+  
+
+    button#profile-tab {
+        color: #000000;
+        font-weight: 500;
+        background-color: #DEDEDE;
+        border-color: #b2adad;
+        border-radius: 0px;
+        padding: 6px 18px 6px 18px;
+        font-size: small;
+    }
+
+    button#contact-tab {
+        padding: 6px 17px 6px 18px !important;
+        font-size: small;
+    }
+
+    .homeLoanAmount {
+        gap: 60px;
+        align-items: center;
+        display: block;
+    }
+
+    .homeLoanIntrestRate-Content{
+        text-align: center;
+        display: block; 
+        gap: 110px; 
+        align-items: center;
+    }
+
+    .homeloanLoanTenure-section{
+        text-align: center;
+        display: block; 
+        gap: 110px; 
+        align-items: center;
+    }
+    
+
+    #scichart-root {
+        width: 100% !important;
+       
+    }
+
+    .scichart__legend div {
+        display: block !important;
+        align-self: flex-end !important;
+        width: fit-content;
+        pointer-events: auto;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        /* background-color: #b16a6a !important; */
+        color: #1d1c1c !important;
+        font-size: 13px !important;
+        margin: -43px -2px -11px 90px  !important;
+        padding: 2px 3px 4px 4px  !important;
+        gap: 4px !important;
+        bottom: -27px !important;
+    }
+    svg#scichart-root_SVG {
+        background: #eeeeee;
+        margin: 4px 0px 0 8px;
+        width: 261px  !important;
+        height: 92% !important;
+    }
+
+    .resultPie-Section {
+        border-top: 1px solid #b2adad;
+        height: 278px;
+        display: none;
+    }
+    button#calculateButton {
+        margin: 20px 0 0 0;
+        width: 47%;
+        background: #0d6efd;
+        border: 1px solid #0d6efd;
+        position: relative;
+        left: 91px;
+        top: -10px;
+    }
+
+    .presonalLoanAmount{
+        display: block; 
+       
+    }
+
+    .homeLoanIntrestRate-content{
+        display: block; 
+        align-items: center;
+     }
+
+     .carLoanAmount{
+        display: block; 
+       
+        align-items: center;
+     }
+
+     .carResultPie-Section {
+        height: 253px;
+        display: none;
+    }
+
+    svg#carScichart-root_SVG {
+      
+        border-top: 1px solid #b2adad;
+    }
+    svg#presonalScichart-root_SVG {
+      
+        border-top: 1px solid #b2adad;
+    }
+
+    .result-presonalloan-Total {
+        border-bottom: 1px solid #b2adad;
+    }
+
+    .result-carLoan-Total{
+        border-bottom: 1px solid #b2adad;
+    }
+
+    .h1, h1 {
+        font-size: 24px !important;
+        font-size: calc(1.375rem + 1.5vw);
+    }
+
+    input#homeInterestRate {
+        width: 141px !important;
+    }
+
+    input#homeLoanTenure {
+        width: 135px!important;
+    }
+
+    input#presonalInterestRate {
+        width: 139px !important;
+    }
+
+    input#presonalLoanTenure {
+        width: 139px !important;
+    }
+
+    input#carLoanAmount {
+        margin: 0px !important;
+        width: 139px !important;
+    }
+
+    input#carInterestRate {
+        width: 139px !important;
+    }
+
+    input#carLoanTenure {
+        width: 139px !important;
+    }
+
+    button#CarCalculateButton {
+
+
+        margin: 20px 0 0 0;
+        width: 47%;
+        background: #0d6efd;
+        border: 1px solid #0d6efd;
+        position: relative;
+        left: 91px;
+        top: -10px;
+    }
+
+    .display-side {
+        display: none;
+    }
+
+    .mobile-side {
+        display: block;
+    }
+
+    .content-section p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    button#contact-tab {
+      
+        top: 93px;
+    }
+}

@@ -1,0 +1,443 @@
+.emiCalculator {
+
+    background:#EEEEEE;
+    /* padding: 20px; */
+}
+
+.emiCalculator-start {
+    border: 3px dashed #CCCCCC;
+}
+.homLoan-Content {
+    /* margin: 0 auto; */
+    border:
+        1px solid #b2adad;
+}
+
+.emicalculator-content-rightSection-heading h2 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.emicalculator-content-rightSection-heading {
+    border: 1px solid #b2adad;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.emicalcultor-content {
+    margin-top: 2px;
+    border: 1px solid #b2adad;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.homeLoan-ResultSection {
+    border: 1px solid #b2adad;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.col-md-6.pie-chart {
+    border-left: 1px solid #b2adad;
+}
+
+a.canvasjs-chart-credit {
+    display: none !important;
+}
+
+/* canvas.canvasjs-chart-canvas {
+    background: lightgrey;
+} */
+
+
+
+.steps {
+    border-color: transparent;
+    border-style: none solid;
+    border-width: 0 1px;
+    margin: 0 0 35px !important;
+    position: relative;
+    width: 98%;
+    top: -6px;
+    left: 5px;
+}
+
+.marker,
+.tick {
+    text-align: center;
+}
+
+.tick {
+    color: #878282;
+    font-size: 11px;
+    height: 11px;
+    left: 0;
+    line-height: 11px;
+    margin-left: -24px;
+    position: absolute;
+    width: 48px;
+}
+
+
+svg#scichart-root_SVG {
+    background: #eeeeee;
+    margin: 0 0 0 -1px;
+}
+
+
+
+.scichart__legend div {
+    display: flex !important;
+    align-self: flex-start !important;
+    width: fit-content !important;
+    pointer-events: auto !important;
+    margin-left: 10px !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    left: -328px !important;
+    margin-top: 10px !important;
+    margin-right: -3px !important; 
+    margin-bottom: -4px !important;
+    padding: 0 10px !important;
+    border-radius: 3px !important;
+    background-color: aliceblue !important;
+    
+    color: black !important;
+    gap: 14px !important;
+    font-size: 13px !important;
+}
+
+
+
+svg#carScichart-root_SVG {
+    background: #eeeeee !important;
+    border-top: 1px solid #b2adad !important;
+}
+
+svg#presonalScichart-root_SVG {
+    background: #eeeeee !important;
+    border-top: 1px solid #b2adad !important;
+}
+
+
+
+div#carScichart-root_div {
+
+    height: 112% !important;
+
+}
+
+div#presonalScichart-root_div {
+    height: 112% !important;
+}
+
+/*  */
+
+.result-homeloan.text-center {
+    border-right: 1px solid #b2adad !important;
+    height: 250px !important;
+}
+
+.result-homeloan-LoanEMI p {
+    border-bottom: 1px solid #b2adad !important; 
+    padding: 10px !important;
+}
+
+.result-homeloan-TotalInterestPayable {
+    border-bottom: 1px solid #b2adad !important;
+}
+
+.scichart__legend div {
+    display: flex !important;
+    align-self: flex-end !important;
+    width: fit-content;
+    pointer-events: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 0 5px 0 5px !important;
+    border-radius: 3px;
+    background-color: #fdfeff !important; 
+    color: #1d1c1c !important;
+    font-size: 12px !important;
+    margin: 0 8px -10px 0  !important;
+    gap: 6px !important;
+
+}
+
+button#calculateButton {
+    margin: 20px 0 0 0;
+    width: 22%;
+    background: #0d6efd;
+    border: 1px solid #0d6efd;
+    position: relative;
+    left: 250px;
+}
+
+button#calculateButton:hover {
+    background: #ff6a06;
+    border: 1px solid #ff6a06;
+}
+
+button#home-tab {
+    color: #000000;
+    font-weight: 500;
+    background-color: #DEDEDE;
+    border-color: #b2adad;
+    border-radius: 0px;
+    padding: 13px 30px 13px 30px;
+    position: relative;
+    bottom: -1px;
+}
+button#home-tab:hover{
+    background-color: #eeeeee;
+   
+}
+
+button#home-tab:focus{
+    background-color: #EEEEEE;
+    border-bottom: 2px solid  #eeeeee !important;
+}
+
+button#profile-tab {
+    color: #000000;
+    font-weight: 500;
+    background-color: #DEDEDE;
+    border-color: #b2adad;
+    border-radius: 0px;
+    padding: 13px 30px 13px 30px;
+    position: relative;
+    bottom: -1px;
+}
+
+button#profile-tab:hover {
+    background-color: #eeeeee;
+  
+}
+
+button#profile-tab:focus {
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #EEEEEE !important;
+}
+
+button#contact-tab {
+    color: #000000;
+    font-weight: 500;
+    background-color: #DEDEDE;
+    border-color: #b2adad;
+    border-radius: 0px;
+    padding: 13px 30px 13px 30px;
+    position: absolute;
+    top: 77px;
+}
+
+button#contact-tab:hover {
+    background-color: #EEEEEE;
+   
+}
+
+button#contact-tab:focus {
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #EEEEEE  !important;
+}
+/*  range */
+
+/* Basic reset of thumb appearance */
+input[type="range"] {
+    -webkit-appearance: none;
+    /* width: 80%; */
+    background: transparent;
+    position: relative;
+    z-index: 1;
+}
+  
+  /* Thumb (circle) styling */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px; /* Thumb width */
+    height: 20px; /* Thumb height */
+    background: #fff; /* Thumb color */
+    border: 2px solid green; /* Thumb border */
+    border-radius: 50%; /* Circle shape */
+    cursor: pointer;
+    margin-top: -8px; /* Adjusts the thumb position to be centered on the track */
+   z-index: 1 !important;
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid green;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1 !important;
+  }
+  
+  input[type="range"]::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid green;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1 !important;
+  }
+  
+  /* Track styling */
+  input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    
+    border-radius: 2px;
+  }
+  
+  input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 4px;
+    background: grey;
+    border-radius: 2px;
+  }
+  
+  input[type="range"]::-ms-track {
+    width: 100%;
+    height: 4px;
+    background: transparent; /* IE requires transparency */
+    border-color: transparent;
+    color: transparent;
+  }
+  
+  input[type="range"]::-ms-fill-lower {
+    background: green;
+    border-radius: 2px;
+    z-index: 1 !important;
+  }
+  
+  input[type="range"]::-ms-fill-upper {
+    background: grey;
+    border-radius: 2px;
+  }
+  
+  /* For WebKit browsers, add a green shadow inside the track for the filled part */
+  input[type="range"]::before {
+    content: '';
+    height: 4px;
+    display: block;
+    background-color: green;
+    position: relative;
+    top: -4px; /* Adjust based on track height */
+    border-radius: 2px;
+    z-index: 1 !important; /* Ensure it doesn't overlap the thumb */
+  }
+
+  canvas#scichart-root_2D {
+    background: none !important;
+}
+
+
+.homeLoanAmount{
+    display: flex; 
+    gap: 60px; 
+    align-items: center;
+}
+
+.homeLoanIntrestRate-Content{
+    display: flex; 
+    gap: 110px; 
+    align-items: center;
+}
+
+.homeloanLoanTenure-section{
+    display: flex; 
+    gap: 110px; 
+    align-items: center;
+}
+
+.presonalLoanAmount{
+    display: flex; 
+    gap: 60px; 
+    align-items: center;
+}
+ .homeLoanIntrestRate-content{
+    display: flex; 
+    gap: 110px; 
+    align-items: center;
+ }
+
+
+ .carLoanAmount{
+    display: flex; 
+    gap: 60px; 
+    align-items: center;
+ }
+
+ .content-section p {
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+.content-section-example {
+    border-left: 6px solid #ff9933;
+}
+
+.content-section-example p{
+    font-family: "Solitreo", cursive;
+    font-size: 18px;
+}
+
+select#cars {
+    background: #f8f9fa;
+    border: none;
+    width: 65px;
+}
+
+.select {
+    
+    background-color: #df1d1d;
+    border: 1px solid #ed0303;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.conversion-Result{
+    border: 1px solid #b2adad;
+    border-radius: 5px;
+    /* line-height: 18px; */
+}
+
+
+
+.carLoanBuutton{
+    margin: 20px 0 0 0;
+    width: 22%;
+    background: #0d6efd !important; 
+    border: 1px solid #0d6efd !important;
+    position: relative;
+    left: 250px;
+    text-align: center;
+}
+
+.carLoanBuutton:hover {
+    background: #ff6a06 !important;
+    border: 1px solid #ff6a06 !important;
+}
+
+select#carsSection {
+    border: none;
+    background: #f8f9fa;
+}
+
+select#presonal {
+    border: none;
+    background: #f8f9fa;
+}
+
+.display-side {
+    display: block;
+}
+
+.mobile-side {
+    display: none;
+}
